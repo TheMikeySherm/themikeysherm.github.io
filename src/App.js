@@ -65,7 +65,8 @@ function App() {
       <Container>
         <Title>Eduction</Title>
         <Para>
-          JavaScript is currently my favorit
+          Continous research is a must! I actively seek new information in the form of workshops, conferences, and good ol' fashion reading. 
+          I also do my best to surround myself with like minded individuals who want to push the boundries of possible. 
         </Para>
         <Para>
           At SNHU, I studied Computer Sciense with a focus in Software Engineering and earned Magna Cum Laude honors. Prior to attending SNHU,
@@ -80,7 +81,9 @@ function App() {
       </Container>
       <Container>
         <Title>Fun Facts</Title>
-
+        <Row>
+          Fishing
+        </Row>
       </Container>
     </Screen>
   );
