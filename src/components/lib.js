@@ -238,25 +238,7 @@ const SpaceEvenly = (props) => {
     )
 }
 
-const Separate = () => {
-    const separateStyle = {
-        backgroundColor: '#082245',
-        display:'flex',
-    }
-    const hrStyle = {
-        maxWidth:1000,
-        display:'flex',
-        flex:1,
-        border:0,
-        height:'1px',
-        borderImage:'linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0))',
-    }
-    return (
-        <div style={separateStyle}>
-            <hr style={hrStyle}/>
-        </div>
-    )
-}
+
 
 export {
     Screen,
@@ -265,7 +247,6 @@ export {
     Card,
     Row,
     SpaceEvenly,
-    Separate,
     Col,
     Cell,
     Title,
