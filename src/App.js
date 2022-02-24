@@ -1,4 +1,4 @@
-import { Screen, Container, Banner, Avatar, Row, SpaceEvenly, Icon, Card, Para, Title, Col, Cell, Anchor, Logo,} from "./components/lib";
+import { Screen, Container, Banner, Avatar, Row, SpaceEvenly, Icon, Card, Para, Title, Col, Cell, Anchor, Logo, } from "./components/lib";
 import headshot from './assets/headshot.png';
 import LinkedIn from './assets/icon/linkedin.png'
 import GitHub from './assets/icon/github.png'
@@ -49,8 +49,8 @@ function App() {
           facilitated integrations between SMS and the United States Postal Service.
         </Para>
         <Para>
-          As a Freelancer, I enjoy helping others turn ideas into reality. 
-          My expirence encompasses simple landing pages like <Anchor href="https://yardbrosmd.com/" target="_blank">YardBros</Anchor>,  
+          As a Freelancer, I enjoy helping others turn ideas into reality.
+          My experience encompasses simple landing pages like <Anchor href="https://yardbrosmd.com/" target="_blank">YardBros</Anchor>,
           to complex mobile apps and online shops, the former <Anchor href="https://play.google.com/store/apps/details?id=com.seawatchapp" target="_blank">Sea Watch</Anchor> and
           the latter <Anchor href="https://seaweedsbythesea.com/" target="_blank">Sea Weeds</Anchor>.
         </Para>
@@ -65,13 +65,13 @@ function App() {
       <Container>
         <Title>Eduction</Title>
         <Para>
-          Continous research is a must! I actively seek new information in the form of workshops, conferences, and good ol' fashion reading. 
-          I also do my best to surround myself with like minded individuals who want to push the boundries of possible. 
+          Continuous research is a must! I actively seek new information in the form of workshops, conferences, and good ol' fashion reading.
+          I also do my best to surround myself with like minded individuals who want to push the boundaries of possible.
         </Para>
         <Para>
-          At SNHU, I studied Computer Sciense with a focus in Software Engineering and earned Magna Cum Laude honors. Prior to attending SNHU,
+          At SNHU, I studied Computer Science  with a focus in Software Engineering and earned Magna Cum Laude honors. Prior to attending SNHU,
           I attended the United States Coast Guard Academy and studied Naval Architecture and Marine Engineering.
-          As an Undergrad at the Academy, I recieved
+          As an Undergrad at the Academy, I received
           Undergraduate Paper of the Year, from the Society of Naval Architects and Marine Engineers.
         </Para>
         <Row>
@@ -80,9 +80,14 @@ function App() {
         </Row>
       </Container>
       <Container>
-        <Title>Fun Facts</Title>
+        <Title>Contact Me</Title>
         <Row>
-          Fishing
+          <Card>
+            610.780.4554
+          </Card>
+          <Card>
+            michael.shermot[at]gmail.com
+          </Card>
         </Row>
       </Container>
     </Screen>
