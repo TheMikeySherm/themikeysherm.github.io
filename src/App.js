@@ -76,9 +76,9 @@ function App() {
           </Para>
           <Para>
             As a Freelancer, I enjoy helping others turn ideas into reality.
-            My experience encompasses simple landing pages like <Anchor href="https://yardbrosmd.com/" target="_blank">YardBros</Anchor>,
-            to complex mobile apps and online shops, the former <Anchor href="https://play.google.com/store/apps/details?id=com.seawatchapp" target="_blank">Sea Watch</Anchor> and
-            the latter <Anchor href="https://seaweedsbythesea.com/" target="_blank">Sea Weeds</Anchor>.
+            My experience encompasses complex applications- <Anchor href="https://play.google.com/store/apps/details?id=com.seawatchapp" target="_blank">Sea Watch</Anchor>,
+            to online shops- <Anchor href="https://seaweedsbythesea.com/" target="_blank">Sea Weeds</Anchor>,
+            and simple landing pages- <Anchor href="https://yardbrosmd.com/" target="_blank">YardBros</Anchor>.
           </Para>
           <Row>
             <Logo src={SouthernMail} alt={'southern mail'} />
