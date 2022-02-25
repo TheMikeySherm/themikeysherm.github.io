@@ -52,7 +52,7 @@ function App() {
           </Para>
           <Para>
             I surround myself with professional coaches who believe in me as much as I believe in myself.
-            I seek feedback and reflex on critisms. By doing so, I improve my abilities and emotional intelligence; 
+            I seek feedback and reflect on criticisms. By doing so, I improve my abilities and emotional intelligence; 
             helping me become a better person. 
           </Para>
           <Para>
