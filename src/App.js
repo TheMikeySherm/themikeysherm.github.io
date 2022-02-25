@@ -110,7 +110,7 @@ function App() {
         <Col>
           <Title>Life Outside CS</Title>
           <Para>
-            When I am taking a break from my passion, I am definitly exploring with my wife Kelly, or taking pictures of my cats.
+            When I am taking a break from my passion, I am definitly exploring with my wife Kelly.
           </Para>
           <Row>
             <Image src={Shark} alt={'fishing'} />
