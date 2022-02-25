@@ -108,7 +108,7 @@ function App() {
         <Col>
           <Title>Life Outside CS</Title>
           <Para>
-            When I am taking a break from my passion, I am definitly exploring with my wife Kelly.
+            When I am taking a break from my passion, I am fishing and exploring with my wife.
           </Para>
           <Row>
             <Image src={Shark} alt={'fishing'} />
