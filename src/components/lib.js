@@ -9,7 +9,6 @@ const Screen = (props) => {
     )
 }
 
-
 const Container = (props) => {
     const containerStyle = {
         backgroundColor: '#082245',
@@ -22,10 +21,7 @@ const Container = (props) => {
     const innerStyle = {
         maxWidth: '1000px',
         display: 'flex',
-        flex: 1,
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
+
     }
     return (
         <div style={containerStyle}>
@@ -41,7 +37,8 @@ const Row = (props) => {
         display: 'flex',
         flexDirection: 'row',
         flexWrap: 'wrap',
-        justifyContent: 'center'
+        justifyContent:'center',
+
     }
     return (
         <div style={rowStyle}>
@@ -54,6 +51,8 @@ const Col = (props) => {
     const colStyle = {
         display: 'flex',
         flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
     }
     return (
         <div style={colStyle}>
@@ -62,13 +61,11 @@ const Col = (props) => {
     )
 }
 
-
 const Cell = (props) => {
     const cellStyle = {
         display: 'flex',
-        flexGrow: 2,
-        flexShrink: 1,
-        flexBasis: 'auto'
+        alignItems: 'center',
+        justifyContent: 'center'
     }
     return (
         <div style={cellStyle}>
@@ -77,22 +74,9 @@ const Cell = (props) => {
     )
 }
 
-const Avatar = (props) => {
-    const avatarStyle = {
-        maxHeight: 250,
-        borderRadius: '50%',
-        border: '3px solid #fff',
-        margin: 5,
-    }
-    return (
-        <img style={avatarStyle} src={props.src} alt={props.alt} />
-    )
-}
-
 const Center = (props) => {
     const centerStyle = {
         display: 'flex',
-        flex: 1,
         alignItems: 'center',
         justifyContent: 'center'
     }
@@ -100,57 +84,6 @@ const Center = (props) => {
         <div style={centerStyle}>
             {props.children}
         </div>
-    )
-}
-
-
-const Code = (props) => {
-    return (
-        <pre>
-            <code>
-                {props.children}
-            </code>
-        </pre>
-    )
-}
-
-const Anchor = (props) => {
-    const anchorStyle = {
-        color: 'white'
-    }
-    return (
-        <a href={props.href} target={props.target} style={anchorStyle}>
-            {props.children}
-        </a>
-    )
-}
-
-
-const Logo = (props) => {
-    const iconStyle = {
-        height:'calc(50px + 10.0vmin)',
-        width:'calc(50px + 10.0vmin)',
-        objectFit:'contain',
-        marginTop:10,
-        marginBottom:10,
-        marginLeft: 20,
-        marginRight: 20,
-    }
-    return (
-        <img src={props.src} alt={props.alt} style={iconStyle} />
-    )
-}
-
-const Icon = (props) => {
-    const iconStyle = {
-        height: 25,
-        marginTop: 5,
-        marginBottom:5,
-        marginLeft:10,
-        marginRight:10,
-    }
-    return (
-        <img src={props.src} alt={props.alt} style={iconStyle} />
     )
 }
 
@@ -181,25 +114,98 @@ const Banner = (props) => {
     )
 }
 
-
-const Card = (props) => {
-    const cardStyle = {
-        border: '1px solid #1555ae',
-        backgroundColor: '#0d3368',
-        margin: 5,
-        padding: 3
+const Avatar = (props) => {
+    const avatarStyle = {
+        maxHeight:'calc(250px + 10.0vmin)',
+        borderRadius: '50%',
+        border: '3px solid #fff',
+        marginTop:50,
     }
     return (
-        <div style={cardStyle}>
+        <img style={avatarStyle} src={props.src} alt={props.alt} />
+    )
+}
+
+const Code = (props) => {
+    return (
+        <pre>
+            <code>
+                {props.children}
+            </code>
+        </pre>
+    )
+}
+
+const Anchor = (props) => {
+    const anchorStyle = {
+        color: 'white'
+    }
+    return (
+        <a href={props.href} target={props.target} style={anchorStyle}>
             {props.children}
-        </div>
+        </a>
+    )
+}
+
+const Image = (props) => {
+    const iconStyle = {
+        height:'calc(75px + 10.0vmin)',
+        width:'calc(75px + 10.0vmin)',
+        objectFit:'contain',
+        margin:5
+    }
+    return (
+        <img src={props.src} alt={props.alt} style={iconStyle} />
+    )
+}
+
+const Logo = (props) => {
+    const iconStyle = {
+        height:'calc(50px + 10.0vmin)',
+        width:'calc(50px + 10.0vmin)',
+        objectFit:'contain',
+        marginTop:10,
+        marginBottom:10,
+        marginLeft: 20,
+        marginRight: 20,
+    }
+    return (
+        <img src={props.src} alt={props.alt} style={iconStyle} />
+    )
+}
+
+const Icon = (props) => {
+    const iconStyle = {
+        height: 25,
+        marginTop: 5,
+        marginBottom:5,
+        marginLeft:10,
+        marginRight:10,
+    }
+    return (
+        <img src={props.src} alt={props.alt} style={iconStyle} />
+    )
+}
+
+const IconResize = (props) => {
+    const iconStyle = {
+        height:'calc(25px + 5.0vmin)',
+        marginTop: 5,
+        marginBottom:5,
+        marginLeft:10,
+        marginRight:10,
+    }
+    return (
+        <img src={props.src} alt={props.alt} style={iconStyle} />
     )
 }
 
 const Title = (props) => {
     const titleStyle = {
         fontSize: 'calc(10px + 3vmin)',
-        textDecoration:'underline'
+        textDecoration:'underline',
+        margin:5,
+        paggin:3,
     }
     return (
         <div style={titleStyle}>
@@ -222,38 +228,65 @@ const Para = (props) => {
     )
 }
 
-
-const SpaceEvenly = (props) => {
-    const spaceEvenlyStyle = {
-        display: 'flex',
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        alignItems:'center',
-        justifyContent: 'space-between'
+const MiniText = (props) => {
+    const minitextStyle = {
+        fontSize: 'calc(10px + 1vmin)',
     }
     return (
-        <div style={spaceEvenlyStyle}>
+        <div style={minitextStyle}>
             {props.children}
         </div>
     )
 }
 
+const Card = (props) => {
+    const cardStyle = {
+        border: '1px solid #1555ae',
+        backgroundColor: '#0d3368',
+        margin: 5,
+        padding: 3
+    }
+    return (
+        <div style={cardStyle}>
+            {props.children}
+        </div>
+    )
+}
 
+const Tile = (props) => {
+    const tileStyle = {
+        border: '1px solid #1555ae',
+        backgroundColor: '#0d3368',
+        minWidth:'25vmin',
+        display:'flex',
+        flex:1,
+        margin: 5,
+        padding: 3
+    }
+    return (
+        <div style={tileStyle}>
+            {props.children}
+        </div>
+    )
+}
 
 export {
     Screen,
     Container,
     Banner,
     Card,
+    Tile,
     Row,
-    SpaceEvenly,
     Col,
     Cell,
     Title,
     Para,
+    MiniText,
     Anchor,
     Avatar,
     Icon,
+    IconResize,
+    Image,
     Logo,
     Center,
     Code
