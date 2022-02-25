@@ -91,7 +91,7 @@ function App() {
       </Container>
       <Container>
         <Col>
-          <Title>Eduction</Title>
+          <Title>Education</Title>
           <Para>
             At SNHU, I studied Computer Science  with a focus in Software Engineering and earned Magna Cum Laude honors. Prior to attending SNHU,
             I attended the United States Coast Guard Academy and studied Naval Architecture and Marine Engineering.
