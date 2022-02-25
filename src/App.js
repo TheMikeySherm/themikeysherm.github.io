@@ -70,7 +70,7 @@ function App() {
           <Title>Experience</Title>
           <Para>
             At <Anchor href="https://southernmail.com/" target="_blank">Southern Mail (SMS)</Anchor>, I plan, design, build, and integrate new programs;
-            saving time, money, and provide greater visibility of day-to-day operations.
+            saving time and money, while also providing greater visibility of day-to-day operations.
             I rebuilt, re-platformed, and migrated legacy applications to modern languages and
             facilitated integrations between SMS and the United States Postal Service.
           </Para>
