@@ -37,9 +37,7 @@ function App() {
         <Col>
           <Avatar src={Headshot} alt={'avatar'} />
           <Para>
-            <i>Hard work becomes talent.</i>
-            <br/>
-            <b>My work ethic is ineffable.</b>
+            <b>Hard work becomes talent.</b>
           </Para>
           <Para>
             I am a Computer Scientist (CS) passionate about learning and using my skills to pursue
