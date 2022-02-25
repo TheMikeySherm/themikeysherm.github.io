@@ -1,4 +1,4 @@
-import { Screen, Container, Banner, Avatar, Row, Center, Icon, Card, Tile, Para, Title, Col, Cell, Anchor, Logo, MiniText, IconResize, Image } from "./components/lib";
+import { Screen, Container, Banner, Avatar, Row, Icon, Card, Para, Title, Col, Cell, Anchor, Logo, MiniText, IconResize, Image} from "./components/lib";
 import Headshot from './assets/me/headshot.png';
 import Shark from './assets/me/shark.png';
 import Kayak from './assets/me/kayak.png';
@@ -52,16 +52,16 @@ function App() {
           </Para>
           <Para>
             I surround myself with professional coaches who believe in me as much as I believe in myself.
-            I seek feedback and reflect on criticisms. By doing so, I improve my abilities and emotional intelligence; 
-            helping me become a better person. 
+            I seek feedback and reflect on criticisms. By doing so, I improve my abilities and emotional intelligence;
+            helping me become a better person.
           </Para>
           <Para>
             <b>I am amazing.</b>
           </Para>
-          <Para> 
-            I believe in self-affirmation and in the affirmation of others. 
-            <i> As one stone sharpens another, so do we. </i> 
-            I believe we can accomplish more by building each other up. 
+          <Para>
+            I believe in self-affirmation and in the affirmation of others.
+            <i> As one stone sharpens another, so do we. </i>
+            I believe we can accomplish more by building each other up.
           </Para>
         </Col>
       </Container>
@@ -82,8 +82,8 @@ function App() {
           </Para>
           <Row>
             <Logo src={SouthernMail} alt={'southern mail'} />
-            <Logo src={SeaWatch} alt={'sea watch'} />
             <Logo src={GFM} alt={'go freight masters'} />
+            <Logo src={SeaWatch} alt={'sea watch'} />
             <Logo src={YardBros} alt={'yardbros'} />
             <Logo src={SeaWeeds} alt={'seaweeds'} />
           </Row>
@@ -108,7 +108,7 @@ function App() {
         <Col>
           <Title>Life Outside CS</Title>
           <Para>
-            When I am taking a break from my passion, I am fishing and exploring with my wife.
+            When I am taking a break from my work, I am fishing and exploring with my wife.
           </Para>
           <Row>
             <Image src={Shark} alt={'fishing'} />
@@ -117,24 +117,28 @@ function App() {
             <Image src={Biking} alt={'Biking'} />
             <Image src={Kayak} alt={'Kayak'} />
           </Row>
-          <br />
-          <Title>Contact Me</Title>
-          <Para>
-            I am always available to connect professionally.
-          </Para>
-          <Card>
-            <Cell>
-              <IconResize src={Mobile} alt={'mobile'} />
-              <MiniText>610.780.4554</MiniText>
-            </Cell>
-          </Card>
-          <Card>
-            <Cell>
-              <IconResize src={Email} alt={'email'} />
-              <MiniText>michael.shermot[at]gmail.com</MiniText>
-            </Cell>
-          </Card>
         </Col>
+      </Container>
+      <Container>
+          <Col>
+            <Title>Contact Me</Title>
+            <Para>
+              I am always available to connect professionally.
+            </Para>
+            <Card>
+              <Cell>
+                <IconResize src={Mobile} alt={'mobile'} />
+                <MiniText>610.780.4554</MiniText>
+              </Cell>
+            </Card>
+            <Card>
+              <Cell>
+                <IconResize src={Email} alt={'email'} />
+                <MiniText>michael.shermot[at]gmail.com</MiniText>
+              </Cell>
+            </Card>
+          </Col>
+
 
       </Container>
     </Screen>

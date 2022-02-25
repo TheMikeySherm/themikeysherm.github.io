@@ -1,4 +1,3 @@
-import { props } from 'bluebird';
 import './body.css';
 
 const Screen = (props) => {
@@ -9,6 +8,8 @@ const Screen = (props) => {
     )
 }
 
+
+
 const Container = (props) => {
     const containerStyle = {
         backgroundColor: '#082245',
@@ -18,10 +19,15 @@ const Container = (props) => {
         fontSize: 'calc(10px + 2vmin)',
         color: 'white',
     }
+
     const innerStyle = {
         maxWidth: '1000px',
         display: 'flex',
-
+        flex: 1,
+        borderTop: '1px solid #fff',
+        padding: 5,
+        marginLeft: 3,
+        marginRight: 3,
     }
     return (
         <div style={containerStyle}>
@@ -37,7 +43,7 @@ const Row = (props) => {
         display: 'flex',
         flexDirection: 'row',
         flexWrap: 'wrap',
-        justifyContent:'center',
+        justifyContent: 'center',
 
     }
     return (
@@ -50,6 +56,7 @@ const Row = (props) => {
 const Col = (props) => {
     const colStyle = {
         display: 'flex',
+        flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
@@ -74,18 +81,7 @@ const Cell = (props) => {
     )
 }
 
-const Center = (props) => {
-    const centerStyle = {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-    }
-    return (
-        <div style={centerStyle}>
-            {props.children}
-        </div>
-    )
-}
+
 
 const Banner = (props) => {
     const bannerStyle = {
@@ -116,23 +112,13 @@ const Banner = (props) => {
 
 const Avatar = (props) => {
     const avatarStyle = {
-        maxHeight:'calc(250px + 10.0vmin)',
+        maxHeight: 'calc(250px + 10.0vmin)',
         borderRadius: '50%',
         border: '3px solid #fff',
-        marginTop:50,
+        marginTop: 50,
     }
     return (
         <img style={avatarStyle} src={props.src} alt={props.alt} />
-    )
-}
-
-const Code = (props) => {
-    return (
-        <pre>
-            <code>
-                {props.children}
-            </code>
-        </pre>
     )
 }
 
@@ -149,10 +135,10 @@ const Anchor = (props) => {
 
 const Image = (props) => {
     const iconStyle = {
-        height:'calc(75px + 10.0vmin)',
-        width:'calc(75px + 10.0vmin)',
-        objectFit:'contain',
-        margin:5
+        height: 'calc(75px + 10.0vmin)',
+        width: 'calc(75px + 10.0vmin)',
+        objectFit: 'contain',
+        margin: 5
     }
     return (
         <img src={props.src} alt={props.alt} style={iconStyle} />
@@ -161,11 +147,11 @@ const Image = (props) => {
 
 const Logo = (props) => {
     const iconStyle = {
-        height:'calc(50px + 10.0vmin)',
-        width:'calc(50px + 10.0vmin)',
-        objectFit:'contain',
-        marginTop:10,
-        marginBottom:10,
+        height: 'calc(50px + 10.0vmin)',
+        width: 'calc(50px + 10.0vmin)',
+        objectFit: 'contain',
+        marginTop: 10,
+        marginBottom: 10,
         marginLeft: 20,
         marginRight: 20,
     }
@@ -178,9 +164,9 @@ const Icon = (props) => {
     const iconStyle = {
         height: 25,
         marginTop: 5,
-        marginBottom:5,
-        marginLeft:10,
-        marginRight:10,
+        marginBottom: 5,
+        marginLeft: 10,
+        marginRight: 10,
     }
     return (
         <img src={props.src} alt={props.alt} style={iconStyle} />
@@ -189,11 +175,11 @@ const Icon = (props) => {
 
 const IconResize = (props) => {
     const iconStyle = {
-        height:'calc(25px + 5.0vmin)',
+        height: 'calc(25px + 5.0vmin)',
         marginTop: 5,
-        marginBottom:5,
-        marginLeft:10,
-        marginRight:10,
+        marginBottom: 5,
+        marginLeft: 10,
+        marginRight: 10,
     }
     return (
         <img src={props.src} alt={props.alt} style={iconStyle} />
@@ -203,9 +189,9 @@ const IconResize = (props) => {
 const Title = (props) => {
     const titleStyle = {
         fontSize: 'calc(10px + 3vmin)',
-        textDecoration:'underline',
-        margin:5,
-        paggin:3,
+        fontStyle: 'italic',
+        margin: 5,
+        paggin: 3,
     }
     return (
         <div style={titleStyle}>
@@ -216,14 +202,14 @@ const Title = (props) => {
 
 const Para = (props) => {
     const paraStyle = {
-        fontSize:'calc(10px + 1.3vmin)',
-        margin:10,
-        padding:10,
-        textAlign:'center'
+        fontSize: 'calc(10px + 1.3vmin)',
+        margin: 10,
+        padding: 10,
+        textAlign: 'center'
     }
     return (
         <div style={paraStyle}>
-             {props.children}
+            {props.children}
         </div>
     )
 }
@@ -253,41 +239,8 @@ const Card = (props) => {
     )
 }
 
-const Tile = (props) => {
-    const tileStyle = {
-        border: '1px solid #1555ae',
-        backgroundColor: '#0d3368',
-        minWidth:'25vmin',
-        display:'flex',
-        flex:1,
-        margin: 5,
-        padding: 3
-    }
-    return (
-        <div style={tileStyle}>
-            {props.children}
-        </div>
-    )
-}
+
 
 export {
-    Screen,
-    Container,
-    Banner,
-    Card,
-    Tile,
-    Row,
-    Col,
-    Cell,
-    Title,
-    Para,
-    MiniText,
-    Anchor,
-    Avatar,
-    Icon,
-    IconResize,
-    Image,
-    Logo,
-    Center,
-    Code
+    Screen, Container, Banner, Avatar, Row, Icon, Card, Para, Title, Col, Cell, Anchor, Logo, MiniText, IconResize, Image
 }
