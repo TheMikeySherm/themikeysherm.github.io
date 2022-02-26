@@ -1,4 +1,4 @@
-import { Screen, Container, Banner, Avatar, Row, Icon, Card, Para, Title, Col, Cell, Anchor, Logo, MiniText, IconResize, Image} from "./components/lib";
+import { Screen, Container, Banner, Avatar, Row, Icon, Card, Para, Title, Col, Cell, Anchor, Logo, MiniText, IconResize, Image } from "./components/lib";
 import Headshot from './assets/me/headshot.png';
 import Shark from './assets/me/shark.png';
 import Kayak from './assets/me/kayak.png';
@@ -41,27 +41,29 @@ function App() {
           </Para>
           <Para>
             I am a Computer Scientist (CS) passionate about learning and using my skills to pursue
-            new discoveries within my field. After my time in the US Coast Guard, I completed
-            my Bachelor's degree in 2 years while working fulltime and graduated Magna Cum Laude. As a self-study,
+            new discoveries within my field. After my time in the US Coast Guard I completed
+            my Bachelor's degree in Computer Science in 2 years while working fulltime and graduated Magna Cum Laude. As a self-study,
             I have learned to build mobile and web applications, cloud infrastructures,
             and have ventured into penetration testing with Kali Linux and Quantum
             Computing with Python.
           </Para>
           <Para>
-            <b>I improve everyday.</b>
+            <i>As iron sharpens iron, so one person sharpens another.</i>
+            <MiniText>Proverbs 27:17</MiniText>
           </Para>
           <Para>
-            I surround myself with professional coaches who believe in me as much as I believe in myself.
-            I seek feedback and reflect on criticisms. By doing so, I improve my abilities and emotional intelligence;
-            helping me become a better person.
+            I surround myself with professional coaches, mentors, and forward-thinking leaders.
+            I seek, embrace, and reflect on feedback to improve daily. Emotional intelligence helps me become a better person
+            as I am in a continuous cycle of betterment.
           </Para>
           <Para>
-            <b>I am amazing.</b>
+            <i>Attitude is a choice.</i>
+            <MiniText>Unknown</MiniText>
           </Para>
           <Para>
-            I believe in self-affirmation and in the affirmation of others.
-            <i> As one stone sharpens another, so do we. </i>
-            I believe we can accomplish more by building each other up.
+            I am relentlessly positive and practice self-affirmation multiple times a day. 
+            Positive attitudes are infectious and I know that teams accomplish more by building each other up.
+            I aim to positively influence and support others to create synergy. 
           </Para>
         </Col>
       </Container>
@@ -75,7 +77,7 @@ function App() {
             facilitated integrations between SMS and the United States Postal Service.
           </Para>
           <Para>
-            As a Freelancer, I enjoy helping others turn ideas into reality.
+            As a freelance CS, I enjoy helping others turn ideas into reality.
             My experience encompasses complex applications- <Anchor href="https://play.google.com/store/apps/details?id=com.seawatchapp" target="_blank">Sea Watch</Anchor>,
             to online shops- <Anchor href="https://seaweedsbythesea.com/" target="_blank">Sea Weeds</Anchor>,
             and simple landing pages- <Anchor href="https://yardbrosmd.com/" target="_blank">YardBros</Anchor>.
@@ -120,24 +122,24 @@ function App() {
         </Col>
       </Container>
       <Container>
-          <Col>
-            <Title>Contact Me</Title>
-            <Para>
-              I am always available to connect professionally.
-            </Para>
-            <Card>
-              <Cell>
-                <IconResize src={Mobile} alt={'mobile'} />
-                <MiniText>610.780.4554</MiniText>
-              </Cell>
-            </Card>
-            <Card>
-              <Cell>
-                <IconResize src={Email} alt={'email'} />
-                <MiniText>michael.shermot[at]gmail.com</MiniText>
-              </Cell>
-            </Card>
-          </Col>
+        <Col>
+          <Title>Contact Me</Title>
+          <Para>
+            I am always available to connect professionally.
+          </Para>
+          <Card>
+            <Cell>
+              <IconResize src={Mobile} alt={'mobile'} />
+              <MiniText>610.780.4554</MiniText>
+            </Cell>
+          </Card>
+          <Card>
+            <Cell>
+              <IconResize src={Email} alt={'email'} />
+              <MiniText>michael.shermot[at]gmail.com</MiniText>
+            </Cell>
+          </Card>
+        </Col>
 
 
       </Container>
