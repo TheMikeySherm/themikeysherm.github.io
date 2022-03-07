@@ -1,4 +1,4 @@
-import { Screen, Container, Banner, Avatar, Row, Icon, Card, Para, Title, Col, Cell, Anchor, Logo, MiniText, IconResize, Image } from "./components/lib";
+import { Screen, Container, Banner, Avatar, Row, Icon, Card, Para, Title, Col, Cell, Anchor, Logo, LogoMini, MiniText, IconResize, Image } from "./components/lib";
 import Headshot from './assets/me/headshot.png';
 import Shark from './assets/me/shark.png';
 import Kayak from './assets/me/kayak.png';
@@ -10,6 +10,7 @@ import GitHub from './assets/icon/github.png'
 import Medium from './assets/icon/medium.png'
 import SouthernMail from './assets/icon/sms.png'
 import SeaWatch from './assets/icon/seawatch.png'
+import Orion from './assets/icon/orion.png'
 import GFM from './assets/icon/gfm.png'
 import SNHU from './assets/icon/snhu.png'
 import USCGA from './assets/icon/uscga.png'
@@ -18,6 +19,34 @@ import SeaWeeds from './assets/icon/seaweeds.png'
 import Email from './assets/icon/email.png'
 import Mobile from './assets/icon/mobile.png'
 
+
+import APPLE from './assets/tech/apple.png'
+import LINUX from './assets/tech/linux.png'
+import WINDOWS from './assets/tech/windows.png'
+import ANDROID from './assets/tech/android.png'
+
+import AWS from './assets/tech/aws.png'
+import GOOGLECLOUD from './assets/tech/googlecloud.png'
+import CLOUDFLARE from './assets/tech/cloudflare.png'
+import AUTH0 from './assets/tech/auth0.png'
+import BUDDYWORKS from './assets/tech/buddyworks.png'
+import GIT from './assets/tech/git.png'
+import GITHUB from './assets/tech/github.png'
+import BITBUCKET from './assets/tech/bitbucket.png'
+
+import NODE from './assets/tech/node.png'
+import REACT from './assets/tech/react.png'
+import JS from './assets/tech/js.png'
+
+import HTML from './assets/tech/html.png'
+import CSS from './assets/tech/css.png'
+import PHP from './assets/tech/php.png'
+import PYTHON from './assets/tech/python.png'
+import MYSQL from './assets/tech/mysql.png'
+import MSSQL from './assets/tech/mssql.png'
+import GRAPHQL from './assets/tech/graphql.png'
+
+import WORDPRESS from './assets/tech/wordpress.png'
 
 function App() {
   return (
@@ -78,16 +107,52 @@ function App() {
           </Para>
           <Para>
             As a freelance CS, I enjoy helping others turn ideas into reality.
-            My experience encompasses complex applications- <Anchor href="https://play.google.com/store/apps/details?id=com.seawatchapp" target="_blank">Sea Watch</Anchor>,
+            My experience encompasses complex applications- Sea Watch and Orion,
             to online shops- <Anchor href="https://seaweedsbythesea.com/" target="_blank">Sea Weeds</Anchor>,
             and simple landing pages- <Anchor href="https://yardbrosmd.com/" target="_blank">YardBros</Anchor>.
+          </Para>
+          <Para>
+            As a volunteer, I contributed 350+ hours to Sea Watch and Orion. Both Sea Watch and Orion are applications designed for humanitarian missions.
+            Sea Watch tracks illegal, unreported, and unregulated fishing in the South China Sea.
+            Orion focuses on helping people identify and avoid hazards presented by Russian troops in Ukraine.   
           </Para>
           <Row>
             <Logo src={SouthernMail} alt={'southern mail'} />
             <Logo src={GFM} alt={'go freight masters'} />
             <Logo src={SeaWatch} alt={'sea watch'} />
+            <Logo src={Orion} alt={'orion'} />
             <Logo src={YardBros} alt={'yardbros'} />
             <Logo src={SeaWeeds} alt={'seaweeds'} />
+          </Row>
+        </Col>
+      </Container>
+      <Container>
+        <Col>
+          <Title>Skills</Title>
+          <Row>
+            <Anchor href={'https://developer.apple.com/'} target={'_blank'}><LogoMini src={APPLE} alt={'apple'} /></Anchor>
+            <Anchor href={'https://www.linux.org/'} target={'_blank'}><LogoMini src={LINUX} alt={'linux'} /></Anchor>
+            <Anchor href={'https://www.microsoft.com/'} target={'_blank'}><LogoMini src={WINDOWS} alt={'windows'} /></Anchor>
+            <Anchor href={'https://developer.android.com/'} target={'_blank'}><LogoMini src={ANDROID} alt={'android'} /></Anchor>
+            <Anchor href={'https://aws.amazon.com/'} target={'_blank'}><LogoMini src={AWS} alt={'aws'} /></Anchor>
+            <Anchor href={'https://cloud.google.com/'} target={'_blank'}><LogoMini src={GOOGLECLOUD} alt={'google cloud'} /></Anchor>
+            <Anchor href={'https://www.cloudflare.com/'} target={'_blank'}><LogoMini src={CLOUDFLARE} alt={'cloudflare'} /></Anchor>
+            <Anchor href={'https://auth0.com/'} target={'_blank'}><LogoMini src={AUTH0} alt={'auth0'}/></Anchor>
+            <Anchor href={'https://buddy.works/'} target={'_blank'}><LogoMini src={BUDDYWORKS} alt={'buddy.works'}/></Anchor>
+            <Anchor href={'https://git-scm.com/'} target={'_blank'}><LogoMini src={GIT} alt={'git'}/></Anchor>
+            <Anchor href={'https://github.com/'} target={'_blank'}><LogoMini src={GITHUB} alt={'github'}/></Anchor>
+            <Anchor href={'https://bitbucket.org/dashboard/overview'} target={'_blank'}><LogoMini src={BITBUCKET} alt={'bitbucket'}/></Anchor>
+            <Anchor href={'https://nodejs.org/'} target={'_blank'}><LogoMini src={NODE} alt={'nodejs'}/></Anchor>
+            <Anchor href={'https://reactjs.org/'} target={'_blank'}><LogoMini src={REACT} alt={'reactjs'}/></Anchor>
+            <Anchor href={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} target={'_blank'}><LogoMini src={JS} alt={'java script'}/></Anchor>
+            <Anchor href={'https://developer.mozilla.org/en-US/docs/Web/HTML'} target={'_blank'}><LogoMini src={HTML} alt={'html'}/></Anchor>
+            <Anchor href={'https://developer.mozilla.org/en-US/docs/Web/css'} target={'_blank'}><LogoMini src={CSS} alt={'css'}/></Anchor>
+            <Anchor href={'https://www.php.net/'} target={'_blank'}><LogoMini src={PHP} alt={'php'}/></Anchor>
+            <Anchor href={'https://www.python.org/'} target={'_blank'}><LogoMini src={PYTHON} alt={'python'}/></Anchor>
+            <Anchor href={'https://www.microsoft.com/en-us/sql-server/sql-server-2019'} target={'_blank'}><LogoMini src={MSSQL} alt={'microsoft sql'}/></Anchor>
+            <Anchor href={'https://mysql.com'} target={'_blank'}><LogoMini src={MYSQL} alt={'mysql'}/></Anchor>
+            <Anchor href={'https://graphql.org/'} target={'_blank'}><LogoMini src={GRAPHQL} alt={'graphql'}/></Anchor>
+            <Anchor href={'https://wordpress.com/'} target={'_blank'}><LogoMini src={WORDPRESS} alt={'wordpress'}/></Anchor>
           </Row>
         </Col>
       </Container>

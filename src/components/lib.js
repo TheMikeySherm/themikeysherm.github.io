@@ -160,6 +160,21 @@ const Logo = (props) => {
     )
 }
 
+const LogoMini = (props) => {
+    const iconStyle = {
+        height: 'calc(25px + 5.0vmin)',
+        width: 'calc(25px + 5.0vmin)',
+        objectFit: 'contain',
+        marginTop: 10,
+        marginBottom: 10,
+        marginLeft: 20,
+        marginRight: 20,
+    }
+    return (
+        <img src={props.src} alt={props.alt} style={iconStyle} />
+    )
+}
+
 const Icon = (props) => {
     const iconStyle = {
         height: 25,
@@ -242,5 +257,5 @@ const Card = (props) => {
 
 
 export {
-    Screen, Container, Banner, Avatar, Row, Icon, Card, Para, Title, Col, Cell, Anchor, Logo, MiniText, IconResize, Image
+    Screen, Container, Banner, Avatar, Row, Icon, Card, Para, Title, Col, Cell, Anchor, Logo, LogoMini, MiniText, IconResize, Image
 }
