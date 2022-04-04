@@ -107,7 +107,7 @@ function App() {
           </Para>
           <Para>
             As a freelance CS, I enjoy helping others turn ideas into reality.
-            My experience encompasses complex applications- Sea Watch and Orion,
+            My experience encompasses complex applications- Sea Watch and <Anchor href="https://www.orion-app.com/" target="_blank">Orion</Anchor>,
             to online shops- <Anchor href="https://seaweedsbythesea.com/" target="_blank">Sea Weeds</Anchor>,
             and simple landing pages- <Anchor href="https://yardbrosmd.com/" target="_blank">YardBros</Anchor>.
           </Para>
@@ -120,7 +120,6 @@ function App() {
             <Logo src={SouthernMail} alt={'southern mail'} />
             <Logo src={GFM} alt={'go freight masters'} />
             <Logo src={SeaWatch} alt={'sea watch'} />
-            <Logo src={Orion} alt={'orion'} />
             <Logo src={YardBros} alt={'yardbros'} />
             <Logo src={SeaWeeds} alt={'seaweeds'} />
           </Row>
