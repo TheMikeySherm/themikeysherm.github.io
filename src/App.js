@@ -8,6 +8,7 @@ import Scuba from './assets/me/scuba.png';
 import LinkedIn from './assets/icon/linkedin.png'
 import GitHub from './assets/icon/github.png'
 import Medium from './assets/icon/medium.png'
+import MailManagement from './assets/icon/mms.png'
 import SouthernMail from './assets/icon/sms.png'
 import SeaWatch from './assets/icon/seawatch.png'
 import Orion from './assets/icon/orion.png'
@@ -16,6 +17,12 @@ import SNHU from './assets/icon/snhu.png'
 import USCGA from './assets/icon/uscga.png'
 import YardBros from './assets/icon/yardbros.png'
 import SeaWeeds from './assets/icon/seaweeds.png'
+import SYBR from './assets/icon/sybr.png'
+import SYBRLIGHT from './assets/icon/sybrlight.png'
+import MONGO from './assets/icon/mongodb.png'
+import AZURE from './assets/icon/azure.png'
+import JEST from './assets/icon/jest.png'
+
 import Email from './assets/icon/email.png'
 import Mobile from './assets/icon/mobile.png'
 
@@ -52,6 +59,9 @@ function App() {
   return (
     <Screen>
       <Banner>
+        <Anchor href="https://sybr.org" target="_blank">
+          <Icon src={SYBRLIGHT} alt={'sybrlight'} />
+        </Anchor>
         <Anchor href="https://www.linkedin.com/in/themikeysherm/" target="_blank">
           <Icon src={LinkedIn} alt={'Linkedin'} />
         </Anchor>
@@ -69,12 +79,8 @@ function App() {
             <b>Hard work becomes talent.</b>
           </Para>
           <Para>
-            I am a Computer Scientist (CS) passionate about learning and using my skills to pursue
-            new discoveries within my field. After my time in the US Coast Guard I completed
-            my Bachelor's degree in Computer Science in 2 years while working fulltime and graduated Magna Cum Laude. As a self-study,
-            I have learned to build mobile and web applications, cloud infrastructures,
-            and have ventured into penetration testing with Kali Linux and Quantum
-            Computing with Python.
+            I am a Computer Scientist (CS) passionate about using my skills to provide innovative solutions.
+            I seek out opportunities and challenge myself to push beyond the realm of possible. 
           </Para>
           <Para>
             <i>As iron sharpens iron, so one person sharpens another.</i>
@@ -90,9 +96,8 @@ function App() {
             <MiniText>Unknown</MiniText>
           </Para>
           <Para>
-            I am relentlessly positive and practice self-affirmation multiple times a day. 
             Positive attitudes are infectious and I know that teams accomplish more by building each other up.
-            I aim to positively influence and support others to create synergy. 
+            I aim to positively influence and support others to create synergy.
           </Para>
         </Col>
       </Container>
@@ -100,58 +105,69 @@ function App() {
         <Col>
           <Title>Experience</Title>
           <Para>
-            At <Anchor href="https://southernmail.com/" target="_blank">Southern Mail (SMS)</Anchor>, I plan, design, build, and integrate new programs;
+            At <Anchor href="https://mailmanagementservices.com/" target="_blank">Mail Management Services (MMS)</Anchor>
+            I am the Chief Information Officer. At a high level,
+            I am responsible for managing and implementing computer and information technology.
+            These systems automate processes and increase operational accuracy and performance.
+          </Para>
+          <Para>
+            At <Anchor href="https://southernmail.com/" target="_blank">Southern Mail (SMS)</Anchor>, I planned, designed, built, and integrated new software;
             saving time and money, while also providing greater visibility of day-to-day operations.
             I rebuilt, re-platformed, and migrated legacy applications to modern languages and
             facilitated integrations between SMS and the United States Postal Service.
           </Para>
           <Para>
-            As a freelance CS, I enjoy helping others turn ideas into reality.
-            My experience encompasses complex applications- Sea Watch and <Anchor href="https://www.orion-app.com/" target="_blank">Orion</Anchor>,
+            As a <Anchor href="https://sybr.org/" target="_blank">Freelance CS</Anchor>, I enjoy helping others turn ideas into reality, while also researching and developing future technologies.
+            My experience encompasses complex applications- <Anchor href="https://seawatch.io/" target="_blank">Sea Watch</Anchor> and <Anchor href="https://www.orion-app.com/" target="_blank">Orion</Anchor>,
             to online shops- <Anchor href="https://seaweedsbythesea.com/" target="_blank">Sea Weeds</Anchor>,
             and simple landing pages- <Anchor href="https://yardbrosmd.com/" target="_blank">YardBros</Anchor>.
           </Para>
           <Para>
             As a volunteer, I contributed 350+ hours to Sea Watch and Orion. Both Sea Watch and Orion are applications designed for humanitarian missions.
             Sea Watch tracks illegal, unreported, and unregulated fishing in the South China Sea.
-            Orion focuses on helping people identify and avoid hazards presented by Russian troops in Ukraine.   
+            Orion focuses on helping people identify and avoid hazards presented by Russian troops in Ukraine.
           </Para>
           <Row>
+            <Logo src={MailManagement} alt={'mail management services'} />
             <Logo src={SouthernMail} alt={'southern mail'} />
             <Logo src={GFM} alt={'go freight masters'} />
             <Logo src={SeaWatch} alt={'sea watch'} />
             <Logo src={YardBros} alt={'yardbros'} />
             <Logo src={SeaWeeds} alt={'seaweeds'} />
+            <Logo src={SYBR} alt={'sybr'} />
           </Row>
         </Col>
       </Container>
       <Container>
         <Col>
-          <Title>Skills</Title>
+          <Title>Tools</Title>
           <Row>
             <Anchor href={'https://developer.apple.com/'} target={'_blank'}><LogoMini src={APPLE} alt={'apple'} /></Anchor>
             <Anchor href={'https://www.linux.org/'} target={'_blank'}><LogoMini src={LINUX} alt={'linux'} /></Anchor>
             <Anchor href={'https://www.microsoft.com/'} target={'_blank'}><LogoMini src={WINDOWS} alt={'windows'} /></Anchor>
             <Anchor href={'https://developer.android.com/'} target={'_blank'}><LogoMini src={ANDROID} alt={'android'} /></Anchor>
             <Anchor href={'https://aws.amazon.com/'} target={'_blank'}><LogoMini src={AWS} alt={'aws'} /></Anchor>
+            <Anchor href={'https://azure.microsoft.com/'} target={'_blank'}><LogoMini src={AZURE} alt={'azure'} /></Anchor>
             <Anchor href={'https://cloud.google.com/'} target={'_blank'}><LogoMini src={GOOGLECLOUD} alt={'google cloud'} /></Anchor>
             <Anchor href={'https://www.cloudflare.com/'} target={'_blank'}><LogoMini src={CLOUDFLARE} alt={'cloudflare'} /></Anchor>
-            <Anchor href={'https://auth0.com/'} target={'_blank'}><LogoMini src={AUTH0} alt={'auth0'}/></Anchor>
-            <Anchor href={'https://buddy.works/'} target={'_blank'}><LogoMini src={BUDDYWORKS} alt={'buddy.works'}/></Anchor>
-            <Anchor href={'https://git-scm.com/'} target={'_blank'}><LogoMini src={GIT} alt={'git'}/></Anchor>
-            <Anchor href={'https://github.com/'} target={'_blank'}><LogoMini src={GITHUB} alt={'github'}/></Anchor>
-            <Anchor href={'https://bitbucket.org/dashboard/overview'} target={'_blank'}><LogoMini src={BITBUCKET} alt={'bitbucket'}/></Anchor>
-            <Anchor href={'https://nodejs.org/'} target={'_blank'}><LogoMini src={NODE} alt={'nodejs'}/></Anchor>
-            <Anchor href={'https://reactjs.org/'} target={'_blank'}><LogoMini src={REACT} alt={'reactjs'}/></Anchor>
-            <Anchor href={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} target={'_blank'}><LogoMini src={JS} alt={'java script'}/></Anchor>
-            <Anchor href={'https://developer.mozilla.org/en-US/docs/Web/HTML'} target={'_blank'}><LogoMini src={HTML} alt={'html'}/></Anchor>
-            <Anchor href={'https://developer.mozilla.org/en-US/docs/Web/css'} target={'_blank'}><LogoMini src={CSS} alt={'css'}/></Anchor>
-            <Anchor href={'https://www.php.net/'} target={'_blank'}><LogoMini src={PHP} alt={'php'}/></Anchor>
-            <Anchor href={'https://www.python.org/'} target={'_blank'}><LogoMini src={PYTHON} alt={'python'}/></Anchor>
-            <Anchor href={'https://www.microsoft.com/en-us/sql-server/sql-server-2019'} target={'_blank'}><LogoMini src={MSSQL} alt={'microsoft sql'}/></Anchor>
-            <Anchor href={'https://mysql.com'} target={'_blank'}><LogoMini src={MYSQL} alt={'mysql'}/></Anchor>
-            <Anchor href={'https://graphql.org/'} target={'_blank'}><LogoMini src={GRAPHQL} alt={'graphql'}/></Anchor>
-            <Anchor href={'https://wordpress.com/'} target={'_blank'}><LogoMini src={WORDPRESS} alt={'wordpress'}/></Anchor>
+            <Anchor href={'https://auth0.com/'} target={'_blank'}><LogoMini src={AUTH0} alt={'auth0'} /></Anchor>
+            <Anchor href={'https://buddy.works/'} target={'_blank'}><LogoMini src={BUDDYWORKS} alt={'buddy.works'} /></Anchor>
+            <Anchor href={'https://git-scm.com/'} target={'_blank'}><LogoMini src={GIT} alt={'git'} /></Anchor>
+            <Anchor href={'https://github.com/'} target={'_blank'}><LogoMini src={GITHUB} alt={'github'} /></Anchor>
+            <Anchor href={'https://bitbucket.org/dashboard/overview'} target={'_blank'}><LogoMini src={BITBUCKET} alt={'bitbucket'} /></Anchor>
+            <Anchor href={'https://nodejs.org/'} target={'_blank'}><LogoMini src={NODE} alt={'nodejs'} /></Anchor>
+            <Anchor href={'https://reactjs.org/'} target={'_blank'}><LogoMini src={REACT} alt={'reactjs'} /></Anchor>
+            <Anchor href={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} target={'_blank'}><LogoMini src={JS} alt={'java script'} /></Anchor>
+            <Anchor href={'https://developer.mozilla.org/en-US/docs/Web/HTML'} target={'_blank'}><LogoMini src={HTML} alt={'html'} /></Anchor>
+            <Anchor href={'https://developer.mozilla.org/en-US/docs/Web/css'} target={'_blank'}><LogoMini src={CSS} alt={'css'} /></Anchor>
+            <Anchor href={'https://www.php.net/'} target={'_blank'}><LogoMini src={PHP} alt={'php'} /></Anchor>
+            <Anchor href={'https://www.python.org/'} target={'_blank'}><LogoMini src={PYTHON} alt={'python'} /></Anchor>
+            <Anchor href={'https://www.microsoft.com/en-us/sql-server/sql-server-2019'} target={'_blank'}><LogoMini src={MSSQL} alt={'microsoft sql'} /></Anchor>
+            <Anchor href={'https://jestjs.io/'} target={'_blank'}><LogoMini src={JEST} alt={'jest'} /></Anchor>
+            <Anchor href={'https://mysql.com'} target={'_blank'}><LogoMini src={MYSQL} alt={'mysql'} /></Anchor>
+            <Anchor href={'https://www.mongodb.com/'} target={'_blank'}><LogoMini src={MONGO} alt={'mongo'} /></Anchor>
+            <Anchor href={'https://graphql.org/'} target={'_blank'}><LogoMini src={GRAPHQL} alt={'graphql'} /></Anchor>
+            <Anchor href={'https://wordpress.com/'} target={'_blank'}><LogoMini src={WORDPRESS} alt={'wordpress'} /></Anchor>
           </Row>
         </Col>
       </Container>
@@ -204,8 +220,6 @@ function App() {
             </Cell>
           </Card>
         </Col>
-
-
       </Container>
     </Screen>
   );

@@ -90,7 +90,7 @@ const Banner = (props) => {
         top: 0,
         display: 'flex',
         borderBottom: '1px solid #eee',
-        backgroundColor: '#11448b',
+        backgroundColor: '#1d3b7d',
         alignItems: 'center',
         justifyContent: 'center',
     }
@@ -159,6 +159,7 @@ const Logo = (props) => {
         <img src={props.src} alt={props.alt} style={iconStyle} />
     )
 }
+
 
 const LogoMini = (props) => {
     const iconStyle = {
