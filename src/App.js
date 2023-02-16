@@ -108,7 +108,7 @@ function App() {
             At <Anchor href="https://mailmanagementservices.com/" target="_blank">Mail Management Services (MMS)</Anchor>
             I am the Chief Information Officer. At a high level,
             I am responsible for managing and implementing computer and information technology.
-            These systems automate processes and increase operational accuracy and performance.
+            These systems automate processes and increase operational accuracy and precision.
           </Para>
           <Para>
             At <Anchor href="https://southernmail.com/" target="_blank">Southern Mail (SMS)</Anchor>, I planned, designed, built, and integrated new software;
