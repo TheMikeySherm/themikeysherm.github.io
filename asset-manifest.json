@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.76381900.js",
+    "main.js": "/static/js/main.feea0106.js",
     "static/media/shark.png": "/static/media/shark.d26300a9e47debc78ba8.png",
     "static/media/biking.png": "/static/media/biking.6ccc3b3cb5f1c6c0cfce.png",
     "static/media/scuba.png": "/static/media/scuba.69c4d213ca33397fac3a.png",
@@ -10,8 +10,10 @@
     "static/media/headshot.png": "/static/media/headshot.15b7d4acf3ec93cacdaa.png",
     "static/media/uscga.png": "/static/media/uscga.df408287e5a8a1f2aa10.png",
     "static/media/snhu.png": "/static/media/snhu.6c6304d4022b48172484.png",
+    "static/media/azure.png": "/static/media/azure.5a694f18b0e4f276ce48.png",
     "static/media/orion.png": "/static/media/orion.eecb646944dd165c3944.png",
     "static/media/mysql.png": "/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/jest.png": "/static/media/jest.95bffbbd80a3ba10dfa4.png",
     "static/media/aws.png": "/static/media/aws.b8ca66acf9f634081b8a.png",
     "static/media/graphql.png": "/static/media/graphql.2da326198dd9aee81c07.png",
     "static/media/python.png": "/static/media/python.d83a1216abd29072c2c4.png",
@@ -32,7 +34,10 @@
     "static/media/git.png": "/static/media/git.c13efadeb8c4398a7171.png",
     "static/media/medium.png": "/static/media/medium.72f8f65f102f1558eb39.png",
     "static/media/bitbucket.png": "/static/media/bitbucket.555e671e5e5a83c16fa3.png",
+    "static/media/sybrlight.png": "/static/media/sybrlight.3e6a3acf3bd6e255c6bf.png",
+    "static/media/mms.png": "/static/media/mms.7a1230d362421a1240e1.png",
     "static/media/googlecloud.png": "/static/media/googlecloud.72ecdcafbd505e91b7c5.png",
+    "static/media/mongodb.png": "/static/media/mongodb.4d1763a20af23f3dbc1d.png",
     "static/media/linkedin.png": "/static/media/linkedin.71a098ab39059cde17ad.png",
     "static/media/css.png": "/static/media/css.6ff70445747d9d37c578.png",
     "static/media/github.png": "/static/media/github.af3f04bdeeb9058d58ca.png",
@@ -40,13 +45,14 @@
     "static/media/mobile.png": "/static/media/mobile.7570f9f12cbf4c34abb2.png",
     "static/media/windows.png": "/static/media/windows.6c6c62512bdb93ac3609.png",
     "static/media/wordpress.png": "/static/media/wordpress.4d8e363733e8f76bd47b.png",
+    "static/media/sybr.png": "/static/media/sybr.0673ce1d77976073842a.png",
     "static/media/sms.png": "/static/media/sms.2b4e11ebef235f5d0fb4.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.76381900.js.map": "/static/js/main.76381900.js.map"
+    "main.feea0106.js.map": "/static/js/main.feea0106.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.76381900.js"
+    "static/js/main.feea0106.js"
   ]
 }
